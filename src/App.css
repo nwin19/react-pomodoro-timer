@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.821), rgba(18, 18, 18, 0.895)),
+        url("https://wallpapers.com/images/hd/focus-1600-x-1200-background-3et55302o4098nt4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.App {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 5rem;
+    border-radius: 0.7rem;
+    backdrop-filter: blur(90px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-family: 'Space Mono', monospace;
+}
+
+.timer-container {
+    text-align: center;
+    font-family: monospace;
+}
+
+.timer {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.btn {
+    /* background-color: #007bff; */
+    background-color: #212121;
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all 200s ease-in;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+.App {
+    padding: 1rem 2rem;
+}
+
+.App-header h1 {
+    font-size: 1.5rem;
+}
+
+.timer {
+    font-size: 2.5rem;
+}
+
+.btn {
+    padding: 8px 18px;
+}
+}
